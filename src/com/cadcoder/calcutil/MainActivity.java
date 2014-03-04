@@ -17,20 +17,30 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
     
-    public void AddToCalculator(View view){
-    	System.out.println("Button Pressed");
-    	
+    
+    /**
+     * Add value to Calculator
+     * @param view
+     */
+    public void AddToCalculator(View view){    	
     	Button b = (Button)view;
     	int value = Integer.parseInt((String) b.getText());
     	_calc.sum(value);
     	updateResult();
     }
     
+    /**
+     * Clears the Calculator
+     * @param view UI Sender
+     */
     public void ClearCalculator(View view){
     	_calc.clear();
     	updateResult();
     }
     
+    /**
+     * Update the result label
+     */
     private void updateResult(){
     	TextView resultLabel = (TextView) findViewById(R.id.calculatorResult);
     	resultLabel.setText(String.valueOf(_calc.value()));
