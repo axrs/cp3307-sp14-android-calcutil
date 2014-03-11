@@ -1,4 +1,4 @@
-package com.cadcoder.calcutil;
+package calculators;
 
 /**
  * 

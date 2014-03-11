@@ -19,7 +19,7 @@
         android:orientation="vertical"
         android:padding="0dp" >
 
-        <com.cadcoder.calcutil.LCDTextView
+        <controls.LCDTextView
             android:id="@+id/calculatorResult"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
@@ -33,6 +33,7 @@
             android:textSize="40sp" />
 
         <TableLayout
+            android:id="@+id/inputControls"
             android:layout_width="match_parent"
             android:layout_height="241dp"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -142,10 +143,11 @@
             android:layout_weight=".5" >
 
             <Button
-                android:id="@+id/functions"
+                android:id="@+id/otherFunctions"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:onClick="DisplayOther"
                 android:text="Other" />
 
             <Button
