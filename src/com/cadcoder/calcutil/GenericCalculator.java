@@ -5,10 +5,10 @@ package com.cadcoder.calcutil;
  *
  */
 public class GenericCalculator implements Calculator {
-	private int _result = 0;
+	private double _result = 0.0;
 		
 	@Override
-	public void sum(int value) {
+	public void sum(double value) {
 		_result += value;
 	}
 
@@ -18,7 +18,7 @@ public class GenericCalculator implements Calculator {
 	}
 	
 	@Override
-	public int value() {
+	public double value() {
 		return _result;
 	}
 

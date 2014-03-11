@@ -11,7 +11,7 @@ public interface Calculator {
 	 * Adds the value to the current calculator value
 	 * @param value Value to add
 	 */
-	void sum(int value);
+	void sum(double value);
 	
 	/**
 	 * Resets the calculator
@@ -22,5 +22,5 @@ public interface Calculator {
 	 * Gets the calculators value
 	 * @return Current Calculator value
 	 */
-	int value();
+	double value();
 }
