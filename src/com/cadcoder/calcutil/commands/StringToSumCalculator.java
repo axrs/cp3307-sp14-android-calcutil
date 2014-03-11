@@ -1,6 +1,6 @@
-package commands;
+package com.cadcoder.calcutil.commands;
 
-import calculators.Calculator;
+import com.cadcoder.calcutil.calculators.Calculator;
 
 
 public class StringToSumCalculator implements Command {

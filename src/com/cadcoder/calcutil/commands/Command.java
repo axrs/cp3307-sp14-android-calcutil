@@ -1,4 +1,4 @@
-package commands;
+package com.cadcoder.calcutil.commands;
 
 public interface Command {
 

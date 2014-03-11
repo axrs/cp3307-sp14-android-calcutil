@@ -1,4 +1,4 @@
-package controls;
+package com.cadcoder.calcutil.controls;
 
 import android.content.Context;
 import android.graphics.Typeface;

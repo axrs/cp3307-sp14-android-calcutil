@@ -1,11 +1,12 @@
 package com.cadcoder.calcutil;
 
-import calculators.Calculator;
-import calculators.GenericCalculator;
-import utilities.StringUtility;
-import commands.ChangeInputDisplayCommand;
-import commands.RevertInputDisplayCommand;
-import commands.StringToSumCalculator;
+import com.cadcoder.calcutil.calculators.Calculator;
+import com.cadcoder.calcutil.calculators.GenericCalculator;
+import com.cadcoder.calcutil.commands.ChangeInputDisplayCommand;
+import com.cadcoder.calcutil.commands.RevertInputDisplayCommand;
+import com.cadcoder.calcutil.commands.StringToSumCalculator;
+import com.cadcoder.calcutil.utilities.StringUtility;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;

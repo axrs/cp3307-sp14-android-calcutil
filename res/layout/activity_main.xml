@@ -19,7 +19,7 @@
         android:orientation="vertical"
         android:padding="0dp" >
 
-        <controls.LCDTextView
+        <com.cadcoder.calcutil.controls.LCDTextView
             android:id="@+id/calculatorResult"
             android:layout_width="fill_parent"
             android:layout_height="0dp"

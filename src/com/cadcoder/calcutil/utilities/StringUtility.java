@@ -1,4 +1,4 @@
-package utilities;
+package com.cadcoder.calcutil.utilities;
 
 public class StringUtility {
 	

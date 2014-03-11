@@ -1,4 +1,4 @@
-package calculators;
+package com.cadcoder.calcutil.calculators;
 
 /**
  * @author Alex
